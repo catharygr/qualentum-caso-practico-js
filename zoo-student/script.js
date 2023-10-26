@@ -60,8 +60,8 @@ for (let i = 0; i < colorOptions.length; i++) {
   li.addEventListener('click', changeColor);
 }
 
+// Evento para mostrar los colores
 settingBtn.addEventListener('click', toggleColorContainer);
-console.log(settingBtn);
 
 // Funcion para mostrar los colores
 function toggleColorContainer() {
