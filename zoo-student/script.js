@@ -35,6 +35,7 @@ for (let i = 0; i < colorOptions.length; i++) {
 }
 
 settingBtn.addEventListener('click', toggleColorContainer);
+console.log(settingBtn);
 
 function toggleColorContainer() {
   profileColorOptions.classList.toggle("show");
