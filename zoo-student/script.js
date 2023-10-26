@@ -2,7 +2,7 @@
 const colorOptions = ['ligth-grey','blue','green','yellow','orange','purple'];
 const colorContainer = document.querySelector('.profile-color-options-container');
 const profileColorOptions = document.querySelector('.profile-color-options');
-const settingBtn = document.querySelector('.setting-btn');
+const settingBtn = document.querySelector('.profile-settings-btn');
 const profileBioContainer = document.querySelector('.profile-bio-container');
 const modal = document.querySelector('.modal');
 const divContainer = document.querySelectorAll('.gallery-item');
@@ -61,12 +61,11 @@ for (let i = 0; i < colorOptions.length; i++) {
 }
 
 // Evento para mostrar los colores
-settingBtn.addEventListener('click', toggleColorContainer);
+settingBtn.addEventListener('click', toogleColorsContainer)
 
 // Funcion para mostrar los colores
-function toggleColorContainer() {
-  profileColorOptions.classList.toggle("show");
- 
+function toogleColorsContainer() {
+	profileColorOptions.classList.toggle('show')
 }
 
 // Funcion para cambiar los colores
